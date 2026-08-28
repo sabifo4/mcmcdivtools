@@ -7,7 +7,8 @@
 
 <!-- badges: end -->
 
-The goal of mcmcdivtools is to …
+The goal of `mcmcdivtools` is to process output files by `MCMCtree` to
+generate summary plots and tables.
 
 ## Installation
 
