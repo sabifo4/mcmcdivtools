@@ -4,7 +4,7 @@ Title: Tool For MCMC Diagnostics With MCMCtree Output
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Sandra", "Álvarez-Carreterp",
+      "Sandra", "Álvarez-Carretero",
       email = "sandra.ac93@gmail.com",
       role = c("aut", "cre")
     )

@@ -1,4 +1,12 @@
 url: https://sabifo4.github.io/mcmcdivtools/
 template:
   bootstrap: 5
-
+  ligth-switch: true
+navbar:
+  structure:
+    right: [search, github, lightswitch]
+  components:
+    github:
+      icon: fa-github
+      href: https://github.com/sabifo4/mcmcdivtools
+      aria-label: GitHub
