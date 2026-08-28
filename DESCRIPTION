@@ -20,3 +20,4 @@ Config/testthat/edition: 3
 Config/roxygen2/version: 8.1.0
 Imports: 
     utils
+URL: https://sabifo4.github.io/mcmcdivtools/
