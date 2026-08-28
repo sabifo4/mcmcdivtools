@@ -1,0 +1,41 @@
+# Processing calibration files
+
+Function to read input file/s (semicolon-separated files) with the
+calibration information in \`MCMCtree\`.
+
+## Usage
+
+``` r
+read_calib_f(main_dir, f_names, dat, head_avail = TRUE)
+```
+
+## Arguments
+
+- main_dir:
+
+  Character, (absolute or relative) path to the directory where the
+  file/s are saved. Please type a "/" at the end of the path.
+
+- f_names:
+
+  Character, vector with the file name/s. If more than one file, please
+  separate the names with comas as in a character vector.
+
+- dat:
+
+  Character, global vector created at the beginning of he script with
+  the name that users have given to each analysis. The length of this
+  vector is equivalent to the number of \`MCMCtree\` jobs that have been
+  run for each hypothesis (e.g., different tree hypotheses, different
+  calibration hypotheses, etc.). The length of this vector must be equal
+  to the length of the character vector passed to argument \`f_names\`.
+
+- head_avail:
+
+  Boolean, TRUE if the header is available in the input files. FALSE
+  otherwise.
+
+## Value
+
+List, there are as many data frames as calibration files have been
+input.
